@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="" android:id="@+id/search"
+        android:icon="@drawable/magnify" app:showAsAction="ifRoom" />
+
+    <item android:title="" android:id="@+id/cart"
+        android:icon="@drawable/cart" app:showAsAction="ifRoom" />
 
     <item android:title="@string/item_1" android:id="@+id/item1" />
     <item android:title="@string/item_2" android:id="@+id/item2" />

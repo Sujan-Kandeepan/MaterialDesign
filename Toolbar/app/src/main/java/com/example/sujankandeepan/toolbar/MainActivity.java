@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -29,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
+        if (id == android.R.id.home) finish();
+        if (id == R.id.search) Toast.makeText(getApplicationContext(),
+                "Search selected", Toast.LENGTH_SHORT).show();
+        if (id == R.id.cart) Toast.makeText(getApplicationContext(),
+                "Cart selected", Toast.LENGTH_SHORT).show();
         if (id == R.id.item1) Toast.makeText(getApplicationContext(),
                 "Item 1 selected", Toast.LENGTH_SHORT).show();
         if (id == R.id.item2) Toast.makeText(getApplicationContext(),
