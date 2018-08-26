@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.widget.RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_button_1"
+            android:text="@string/radio_button_1"
+            android:layout_margin="16dp"
+            android:checked="true"
+            app:theme="@style/RadioButtonTheme" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_button_2"
+            android:text="@string/radio_button_2"
+            android:layout_margin="16dp"
+            app:theme="@style/RadioButtonTheme" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_button_3"
+            android:text="@string/radio_button_3"
+            android:layout_margin="16dp"
+            app:theme="@style/RadioButtonTheme" />
+
+    </android.widget.RadioGroup>
+
+</RelativeLayout>
