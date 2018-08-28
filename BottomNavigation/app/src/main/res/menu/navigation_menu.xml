@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nearby" android:title="@string/nearby"
+        android:icon="@drawable/nearby" android:orderInCategory="1" />
+
+    <item android:id="@+id/favorites" android:title="@string/favorites"
+        android:icon="@drawable/favorites" android:orderInCategory="2" />
+
+    <item android:id="@+id/recents" android:title="@string/recents"
+        android:icon="@drawable/recents" android:orderInCategory="3" />
+
+</menu>
