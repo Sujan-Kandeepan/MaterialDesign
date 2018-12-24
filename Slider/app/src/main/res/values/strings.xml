@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Slider</string>
+    <string name="seek_bar_txt">AppCompatSeekBar:</string>
+    <string name="seek_bar_value">0</string>
+    <string name="range_bar_txt">RangeBar:</string>
+    <string name="range_bar_1_value">0</string>
+    <string name="range_bar_2_left_value">10</string>
+    <string name="range_bar_2_right_value">20</string>
+</resources>
