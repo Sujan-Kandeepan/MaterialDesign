@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Date Picker</string>
+    <string name="date_text_view">The date you picked will be shown here.</string>
+    <string name="date_button">Pick Date</string>
+</resources>
